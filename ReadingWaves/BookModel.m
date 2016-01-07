@@ -10,7 +10,7 @@
 #import "Book.h"
 
 // OpenLibrary API URL
-static NSString * const OCEAN_BOOKS_URL = @"https://openlibrary.org/subjects/ocean.json?limit=20";
+static NSString * const SURFING_BOOKS_URL = @"https://openlibrary.org/subjects/surfing.json?limit=20";
 
 @implementation BookModel
 
@@ -47,7 +47,7 @@ static NSString * const OCEAN_BOOKS_URL = @"https://openlibrary.org/subjects/oce
         }
         
         // Get the data from the api
-        NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:OCEAN_BOOKS_URL]];
+        NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:SURFING_BOOKS_URL]];
         
         // If theres no data return false to show failure
         if (data == nil) {
