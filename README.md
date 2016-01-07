@@ -2,7 +2,7 @@
 
 A simple iOS app that displays Books related to surfing.
 
-Uses a Master-Detail layout. The Master layout show titles found and their authors, while the Detail view shows metadata found about the Book selected.
+Uses a Master-Detail layout. The Master layout show titles found and their authors, while the Detail view shows metadata found about the Book selected. The Detail view UI leaves a lot to be desired as this is only a proof of concept. The Cover images for the books are loaded asynchronously so they may take a second to pop into view. 
 
 This application uses the [OpenLibrary API](https://openlibrary.org/developers/api) to query books and information. 
 
